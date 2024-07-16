@@ -1,0 +1,20 @@
+public class HealthProfessional {
+    private int id;
+    private String name;
+    private String basicInfo;
+
+    public HealthProfessional() {
+    }
+
+    public HealthProfessional(int id, String name, String basicInfo) {
+        this.id = id;
+        this.name = name;
+        this.basicInfo = basicInfo;
+    }
+
+    public void printDetails() {
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + name);
+        System.out.println("Basic Info: " + basicInfo);
+    }
+}
